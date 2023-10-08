@@ -5,7 +5,7 @@ body{
 .oceanp, .climatep{
   font-size: 23px;
   color:#315A87 ;
-  font-family:"Gill Sans", sans-seri
+  font-family:"Gill Sans", sans-serif
 }
 
 .box1 {
@@ -118,30 +118,25 @@ h2{
   color: #305A88;
   font-size: 34px;
 }
+
+
 /* climate */
 
-/* .climatecycle{
-    
-    background-size:100vw 100vh ; 
-    background-repeat: no-repeat ;
-} */
+
 .climatebody {
   box-sizing: border-box;
 }
-h3 {
+h3,.climatep p {
     color:  #305A88
 }
-.climate p {
-  color: #305A88;
-}
 
-.climate {
+
+.climatep {
     margin-left: 50px;
     margin-right: 50px;
 }
-#circle {
+#factors {
     display: grid;
-    
     align-items: center;
     justify-items: center;
 }
@@ -192,7 +187,7 @@ h3 {
     float: left;
 }
 
-.circleitem {
+.factorsitem {
     background-color: rgba(255, 255, 255, 0.8);
   text-align: center;
   padding: 20px;
