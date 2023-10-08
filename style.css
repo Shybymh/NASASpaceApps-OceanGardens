@@ -1,0 +1,232 @@
+body{
+    background-color: #f4f0e6;
+}
+
+.oceanp, .climatep{
+  font-size: 23px;
+  color:#315A87 ;
+  font-family:"Gill Sans", sans-seri
+}
+
+.box1 {
+    position: relative;
+    margin: 2em 0;
+    padding: 0.5em 1em;
+    border: solid 3px #93BFCF;
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px); 
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    width: 1000px;
+   justify-content: center; 
+   width: 900px;
+   margin:auto; 
+    
+}
+
+.box1 p {
+    margin: 0; 
+    padding: 0;
+}
+
+.flex {
+  display: flex; 
+}
+.flex .text {
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.mainpage p, .climate p{
+    text-align: left;
+    font-size: 18px;
+}
+
+
+.mainpage nav a:hover{
+    border-bottom:3px solid #f9f9f9;
+}
+
+
+.mainpage nav {
+  width: 100%;
+  height: 70px;
+  background-color: #264669;
+  padding-top: 5px;
+  box-sizing: border-box;
+    overflow: hidden;
+
+}
+
+.mainpage ul {
+  display: flex;
+}
+
+.mainpage li{
+  list-style: none;
+   float: left;  
+}
+
+.mainpage a {
+  display: block;
+  text-decoration: none;
+  color: white;
+  margin-right: 35px;
+   font-size:16px;
+    text-decoration: none;
+    color:#f9f9f9;
+    margin: 14px 16px 0px;
+    transition:0.6s;
+}
+
+
+.header{
+    width:100%;
+    padding: 6px 0px;
+    font-family:serif;
+}
+
+.animate-charcter
+{
+    background-image: linear-gradient(
+    90deg,
+    #B4CDE6 0%,
+    #BDCDD6 29%,
+    #93BFCF 67%,
+    #6096B4 100%);
+
+    background-size: 100%;
+    background-clip: border-box;
+    background-size: 200%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: bloo linear;
+    animation-duration: 3s;
+    animation-iteration-count: 10000;
+    font-size: 70px;
+    display: center;
+    text-align: center;
+
+}
+
+@keyframes bloo {
+  to {
+
+    background-position: 200% center;
+  }
+}
+
+h2{
+  color: #305A88;
+  font-size: 34px;
+}
+/* climate */
+
+/* .climatecycle{
+    
+    background-size:100vw 100vh ; 
+    background-repeat: no-repeat ;
+} */
+.climatebody {
+  box-sizing: border-box;
+}
+h3 {
+    color:  #305A88
+}
+.climate p {
+  color: #305A88;
+}
+
+.climate {
+    margin-left: 50px;
+    margin-right: 50px;
+}
+#circle {
+    display: grid;
+    
+    align-items: center;
+    justify-items: center;
+}
+.solarradiation, .evaporation, .currents {
+  border: 1px solid rgb(8, 8, 232);
+  width: 60%;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+.solarradiation >p, .evaporation>p , .currents> p {
+    color: #f0f8ff;
+}
+
+
+/* .solarradiation {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-items: center;
+} */
+
+
+/* #circle {
+    justify-self: center;
+    align-self: center;
+    background-image: url(Riverimg.jpg);
+    border: 5px solid blue;
+    border-radius: 50%;
+    width: 90vw;
+    height: 90vh;
+} */
+
+.evaporation {
+    float: left;
+}
+ /* .description {
+    display: none;
+} */
+    
+/* .ptitle:hover + .description {
+    display: block;
+}  */
+
+.pimg {
+    float: left;
+}
+
+.circleitem {
+    background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 20px;
+  font-size: 30px;
+}
+.solarradiation {
+    background-image: url(parker-solar-probe-enters-solar-atmosphere.jpeg);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    /* grid-column: 1 / span 2;
+  grid-row: 1; */
+}
+.evaporation {
+    background-image: url(evap.png);
+    background-size: 100%;
+    /* grid-column: 3;
+  grid-row: 1 / span 2; */
+}
+.currents {
+    background-image: url(NASAconveyorBelt.png);
+    background-size: 100%;
+    /* grid-column: 1 / span 3;
+  grid-row: 3; */
+}
+
+footer{
+    border-top: 5px solid blue ;
+    
+}
+
+#climateheader {
+   margin-top: -1cm;
+   margin-left: -1cm;
+   margin-right: -1cm;
+   height: 100px;
+   padding: 20px;
+}
