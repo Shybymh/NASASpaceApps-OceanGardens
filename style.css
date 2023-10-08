@@ -119,7 +119,7 @@ h2{
   font-size: 34px;
 }
 
-
+/* -------------------------------------------------------------------------------------------------- */
 /* climate */
 
 
@@ -151,18 +151,18 @@ h3,.climatep p {
 }
 .solarradiation, .evaporation, .currents {
   border: 1px solid rgb(8, 8, 232);
-  width: 60%;
+  width: 90%;
   align-items: center;
-  
   margin: 10px;
   padding: 10px;
   
 }
 
-.solarradiation >p, .evaporation>p , .currents> p {
-    color: #f4f7f9;
+/* .solarradiation > p , .evaporation > p , .currents > p {
+    color: #1b3a4f;
     text-align: justify;
-}
+    font-size: 1em;
+} */
 
 
 .evaporation {
@@ -170,22 +170,44 @@ h3,.climatep p {
 }
 
 /* .pimg {
-    float: left;
+    float: right;
+    padding: 25px;
 } */
+
+#solar {
+    float: right;
+    padding: 25px;
+}
+#evap {
+    float: left;
+    padding: 25px;
+}
+#current {
+    float: right;
+    padding: 25px;
+}
 
 .ptitle {
     display: grid;
     justify-items: center;
     align-items: center;
     text-align: center;
+    
 }
 
 .factorsitem {
   padding: 20px;
-  font-size: 30px;
+  display: flex;
+  flex-direction: row;
   
 }
-.solarradiation {
+
+/* font-size: 30px; */
+
+.factorsitem  p  {
+    color:  #305A88
+}
+/* .solarradiation {
     background-image: url(Sun.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
@@ -197,12 +219,12 @@ h3,.climatep p {
 .currents {
     background-image: url(laminar.jpg);
     background-size: 100%;
-}
+} */
 
 footer{
     border-top: 5px solid #264669 ;
     background-color: #264669;
-    margin: auto -1cm -1cm -1cm;
+    margin: 25px -1cm -1cm -1cm;
     display: grid;
     align-items: center;
     justify-items: center;
@@ -216,3 +238,46 @@ footer{
    height: 100px;
    padding: 20px;
 }
+
+
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Food */
+/* 
+body{
+    background-color: #f4f0e6;
+}
+
+
+div.mainpage img{
+  width:600px;
+    height:200px;
+    object-fit:cover;
+    border-radius:50%;
+        margin :20px;
+     padding :30px;
+    
+}
+
+.main-visual {
+     width:100%;
+    height:600px;
+    background-image:url(fish.jpeg); 
+    background-repeat: no-repeat; 
+}
+
+p{
+  font-size: 23px;
+  color:#315A87 ;
+  font-family:"Gill Sans", sans-seri;
+}
+
+h2{
+  color: #305A88;
+  font-size: 34px;
+  font-family:"Gill Sans", sans-seri;
+  text-align: center;
+} */
