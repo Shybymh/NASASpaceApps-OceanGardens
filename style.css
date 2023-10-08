@@ -165,38 +165,13 @@ h3,.climatep p {
 }
 
 
-/* .solarradiation {
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    justify-items: center;
-} */
-
-
-/* #circle {
-    justify-self: center;
-    align-self: center;
-    background-image: url(Riverimg.jpg);
-    border: 5px solid blue;
-    border-radius: 50%;
-    width: 90vw;
-    height: 90vh;
-} */
-
 .evaporation {
     float: left;
 }
- /* .description {
-    display: none;
-} */
-    
-/* .ptitle:hover + .description {
-    display: block;
-}  */
 
-.pimg {
+/* .pimg {
     float: left;
-}
+} */
 
 .ptitle {
     display: grid;
@@ -211,23 +186,17 @@ h3,.climatep p {
   
 }
 .solarradiation {
-    background-image: url(parker-solar-probe-enters-solar-atmosphere.jpeg);
+    background-image: url(Sun.jpg);
     background-size: 100%;
     background-repeat: no-repeat;
-    /* grid-column: 1 / span 2;
-  grid-row: 1; */
 }
 .evaporation {
     background-image: url(evap.png);
     background-size: 100%;
-    /* grid-column: 3;
-  grid-row: 1 / span 2; */
 }
 .currents {
     background-image: url(laminar.jpg);
     background-size: 100%;
-    /* grid-column: 1 / span 3;
-  grid-row: 3; */
 }
 
 footer{
