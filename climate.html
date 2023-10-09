@@ -94,6 +94,49 @@
             </div>
         </div>
     </main>
+    <div id="playquiz">
+        <h2>Let's Play A Quiz</h2>
+    </div>  
+    <section id="gamespace" >
+       
+        <div>
+            <div class="centerbuttons">
+                <button id="startbutton" onclick="startGame()">Start</button>
+            </div>
+            
+            <div>
+                <h2 id="question">First que</h2>
+            </div>
+            <div id="options">
+                <div>
+                <input type="radio" id="answer1" name="answers" value="1"> 
+                <label id="anslabel1" for="answer1"></label><br>
+                </div>
+                <div>
+                <input type="radio" id="answer2" name="answers" value="2"> 
+                <label id="anslabel2" for="answer2"></label><br>
+                </div><div>
+                <input type="radio" id="answer3" name="answers" value="3"> 
+                <label id="anslabel3" for="answer3"></label><br>
+                </div>
+            </div>
+                <br />
+            <div id="correct"><h3>Correct!</h3></div>
+            <div id="wrong"><h3 class="wrong">Wrong,try again!</h3></div>
+            <br />
+            <div class="centerbuttons">
+                <button id="submitanswer"  onclick="submitAnswer()">Submit</button>
+            </div>
+            <div class="centerbuttons">
+                <button id="nextque"  onclick="nextQuestion()">Next Question</button>
+            </div>
+            <div class="centerbuttons">
+                <button id="restartbutton" onclick="restartGame()">Restart</button>
+            </div>
+            
+        </div>
+
+    </section>
 
 
       <footer>
@@ -104,7 +147,7 @@
         <p>https://climatekids.nasa.gov/ocean/</p>
         <p>https://gpm.nasa.gov/education/water-cycle</p>
       </footer>
-      <!-- <script src="script.js" ></script> -->
+      <script src="script.js" ></script>
     
   </body>
 </html>
