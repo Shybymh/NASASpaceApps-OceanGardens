@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" href="style2.css">
+   
+    <title>THE   OCEAN</title>
+  </head>
+  <body class="climatebody">
+
+    <!-- <h1 class="animate-charcter"> THE OCEAN</h1> -->
+    <div class="mainpage">
+        <div id="climateheader"> 
+    
+            <nav >
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                <li><a href="oxygen.html">OXYGEN</a></li>
+                <li><a href="climate.html">CLIMATE</a></li>
+                <li><a href="">FOOD SOURCE</a></li>
+                <li><a href="">CREATURES IN THE OCEAN</a></li>
+            
+                </ul>
+            </nav>
+        </div> 
+    </div>
+
+    <main id="gamespace" >
+        <div>
+            <button id="startbutton" onclick="startgame()">Start</button>
+            <h2 id="question">First que</h2>
+            <div id="options">
+                <input type="radio" id="answer1" name="answers" value="1"> 
+                <label id="anslabel1" for="answer1"></label><br>
+                <input type="radio" id="answer2" name="answers" value="2"> 
+                <label id="anslabel2" for="answer2"></label><br>
+                <input type="radio" id="answer3" name="answers" value="3"> 
+                <label id="anslabel3" for="answer3"></label><br>
+            </div>
+            <br />
+            <div id="correct"><h3>Correct!</h3></div>
+            <div id="wrong"><h3 class="wrong">Wrong,try again!</h3></div>
+            <br />
+            <button id="submitanswer"  onclick="submitAnswer()">Submit</button>
+            <button id="nextque"  onclick="nextQuestion()">Next Question</button>
+
+        </div>
+
+    </main>
+
+   
+      <script src="script.js" ></script>
+    
+  </body>
+</html>
