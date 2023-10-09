@@ -158,21 +158,12 @@ h3,.climatep p {
   
 }
 
-/* .solarradiation > p , .evaporation > p , .currents > p {
-    color: #1b3a4f;
-    text-align: justify;
-    font-size: 1em;
-} */
-
 
 .evaporation {
     float: left;
 }
 
-/* .pimg {
-    float: right;
-    padding: 25px;
-} */
+
 
 #solar {
     float: right;
@@ -202,24 +193,12 @@ h3,.climatep p {
   
 }
 
-/* font-size: 30px; */
+
 
 .factorsitem  p  {
     color:  #305A88
 }
-/* .solarradiation {
-    background-image: url(Sun.jpg);
-    background-size: 100%;
-    background-repeat: no-repeat;
-}
-.evaporation {
-    background-image: url(evap.png);
-    background-size: 100%;
-}
-.currents {
-    background-image: url(laminar.jpg);
-    background-size: 100%;
-} */
+
 
 footer{
     border-top: 5px solid #264669 ;
@@ -246,38 +225,52 @@ footer{
 /* -------------------------------------------------------------------------------------------------------- */
 
 /* Food */
-/* 
-body{
-    background-color: #f4f0e6;
+
+/*food*/
+
+
+
+
+.header {
+  width: 100%;
+  padding: 6px 0px;
+  font-family: serif;
 }
 
-
-div.mainpage img{
-  width:600px;
-    height:200px;
-    object-fit:cover;
-    border-radius:50%;
-        margin :20px;
-     padding :30px;
-    
+.fishmain-visual {
+  width: 100%;
+  height: 600px;
+  background-image: url(fish.jpeg);
+  background-repeat: no-repeat;
 }
 
-.main-visual {
-     width:100%;
-    height:600px;
-    background-image:url(fish.jpeg); 
-    background-repeat: no-repeat; 
-}
-
-p{
+.fishp {
   font-size: 23px;
-  color:#315A87 ;
-  font-family:"Gill Sans", sans-seri;
+  color: #315A87;
+  font-family: "Gill Sans", sans-seri;
+  text-align: center;
 }
 
-h2{
+h2 {
   color: #305A88;
   font-size: 34px;
-  font-family:"Gill Sans", sans-seri;
+  font-family: "Gill Sans", sans-seri;
   text-align: center;
-} */
+}
+
+.simulation {
+
+  text-align: center;
+}
+
+.title {
+  text-align: center;
+  color: #315A87;
+}
+
+iframe {
+  margin-top: 4em;
+  margin-left: 25em;
+  margin-bottom: 5em;
+  border: none;
+}
