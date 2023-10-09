@@ -118,7 +118,88 @@ h2{
   color: #305A88;
   font-size: 34px;
 }
-/* ---------------------------------------common--------------------------------------------- */
+
+/* -------------------------------------------------------------------------------------------------- */
+/* climate */
+
+
+.climatebody {
+  box-sizing: border-box;
+}
+h3,.climatep p {
+    color:  #305A88
+}
+
+.intro {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+} 
+.climatep {
+    margin-left: 50px;
+    margin-right: 50px;
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: justify;
+}
+#factors {
+    display: grid;
+    align-items: center;
+    justify-items: center;
+}
+.solarradiation, .evaporation, .currents {
+  border: 1px solid rgb(8, 8, 232);
+  width: 90%;
+  align-items: center;
+  margin: 10px;
+  padding: 10px;
+  
+}
+
+
+.evaporation {
+    float: left;
+}
+
+
+
+#solar {
+    float: right;
+    padding: 25px;
+}
+#evap {
+    float: left;
+    padding: 25px;
+}
+#current {
+    float: right;
+    padding: 25px;
+}
+
+.ptitle {
+    display: grid;
+    justify-items: center;
+    align-items: center;
+    text-align: center;
+    
+}
+
+.factorsitem {
+  padding: 20px;
+  display: flex;
+  flex-direction: row;
+  
+}
+
+
+
+.factorsitem  p  {
+    color:  #305A88
+}
+
+
 footer{
     border-top: 5px solid #264669 ;
     background-color: #264669;
@@ -129,13 +210,15 @@ footer{
     color: white;
 }
 
-/* ------------------------------------game------------------------------------------------------ */
+#climateheader {
+   margin-top: -1cm;
+   margin-left: -1cm;
+   margin-right: -1cm;
+   height: 100px;
+   padding: 20px;
+}
+/* ------------------------Climate Game-------------------------------------- */
 
-/* main {
-    display: grid;
-    justify-content: center;
-    align-content: center;
-} */
 
 #playquiz {
   display: grid;
@@ -225,44 +308,58 @@ footer{
 }
 
 
-/* From Replit */
-/* .climatebody {
-  box-sizing: border-box;
+
+
+
+/* -------------------------------------------------------------------------------------------------------- */
+
+/* Food */
+
+/*food*/
+
+
+
+
+.header {
+  width: 100%;
+  padding: 6px 0px;
+  font-family: serif;
 }
 
-.climate p {
-  color: #305A88
+.fishmain-visual {
+  width: 100%;
+  height: 600px;
+  background-image: url(fish.jpeg);
+  background-repeat: no-repeat;
 }
 
-#indexH2 {
-  margin-left: 7em;
+.fishp {
+  font-size: 23px;
+  color: #315A87;
+  font-family: "Gill Sans", sans-seri;
+  text-align: center;
 }
 
-#indexP {
-  margin-left: 5em;
-  margin-right: 5em;
-  font-size: 22px;
+h2 {
+  color: #305A88;
+  font-size: 34px;
+  font-family: "Gill Sans", sans-seri;
+  text-align: center;
 }
 
-.solarradiation,
-.evaporation,
-.currents {
-  border: 4px solid #004d65;
-  width: 30%;
-  align-items: center;
-  margin: 20px;
-  padding: 10px;
+.simulation {
+
+  text-align: center;
 }
 
-.solarradiation {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  justify-items: center;
+.title {
+  text-align: center;
+  color: #315A87;
 }
 
-.description {
-  display: none;
+iframe {
+  margin-top: 4em;
+  margin-left: 25em;
+  margin-bottom: 5em;
+  border: none;
 }
- */
-

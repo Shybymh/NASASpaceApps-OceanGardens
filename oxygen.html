@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" type="text/css" href="style.css">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>how the ocean provides us with oxygen</title>
+</head>
+
+<body>
+  <h2>
+    Oxygen Provision
+  </h2>
+
+  <div class="mainpage">
+    <div id="header">
+
+      <nav>
+        <ul>
+          <li><a href="index.html">HOME</a></li>
+          <li><a href="food.html">FOOD SOURCE</a></li>
+          <li><a href="oxygen.html">OXYGEN</a></li>
+          <li><a href="climate.html">CLIMATE</a></li>
+
+        </ul>
+      </nav>
+    </div>
+  </div>
+
+  <p id="general">
+    As we all know, plants produce oxygen through photosynthesis. But how does the ocean produce oxygen?
+  </p>
+  <br>
+  <center id="general">
+    CLICK ON THE IMAGE, THEN CLICK ON THE MAGNIFYING GLASS
+  </center>
+
+  <div id="magnify">
+    <a href="javascript:void(0);" onclick="call2functions();"><img src="magnify.png"></a>
+  </div>
+
+  <center>
+
+    <div id="ocean" style="display: none;">
+      <img id="arrows" src="arrows.png">
+      <img src="ocean.jpeg" alt="The Ocean is full of phytoplanktons">
+    </div>
+  </center>
+
+  <img id="clickableImage" src="plant.gif" alt="Image 1" onclick="swapImage()">
+  <h1>
+    Don't trees produce the most oxygen?
+  </h1>
+  <div id="rcorners2">
+    <p id="general">
+      Rainforests are responsible for roughly one-third (28%) of the Earth’s oxygen but <b>50% to 80%</b> of the
+      oxygen
+      in the atmosphere is produced by marine plants.
+    </p>
+    <br><br><br><br><br>
+  </div>
+  <h1>
+    Phytoplankton = Plants?
+    </h3>
+    <div id="rcorners2">
+      <p id="general">
+        As the images shows, there are microorganisms in the ocean called <B>phytoplankton</B>. They are very similar to
+        plants
+        on land due to the shared process of <b>photosynthesis</b>. Like land plants, phytoplankton have
+        <b>chlorophyll</b> to
+        capture
+        sunlight, and they use photosynthesis to turn it into <b>chemical energy</b>. They consume carbon dioxide, and
+        release
+        <b>oxygen</b>. All phytoplankton photosynthesize, but some get additional energy by consuming other organisms.
+      </p>
+
+    </div>
+    <br><br>
+
+    <h2>
+      Types of Phytoplankton
+    </h2>
+    <div class="container">
+      <div id="twotypes">
+        <img class="ptop" src="cheetah.jpeg">
+        <img class="pbottom" src="diatom.png">
+      </div>
+      <div class="text">
+        <h4> One type of Phytoplankton is diatoms. Diatoms have different substance of shells and they are made of
+          interlocking parts. They could be unicellular or colonial! They are symmetrical in structure and have
+          great
+          mobility. Guess which animal this is most similar to! Hover to find out.
+        </h4>
+      </div>
+    </div>
+
+
+
+    <div class="container">
+      <div id="twotypes">
+        <img class="ptop" src="bird.jpeg">
+        <img class="pbottom" src="dinoflagellates.webp">
+      </div>
+      <div class="text">
+        <h4> Another type of Phytoplankton is dinoflagellate. They have flagella to help them move throughout the
+          water,
+          but they are not as mobile as diatoms because they have a bi-flagellated structure. Dinoflagellates are
+          also
+          covered with complex shells, and guess which animal this is most similar to! Hover to find out.
+        </h4>
+      </div>
+    </div>
+    <center>
+      <h2>Play our Oxygen game!</h2>
+      <iframe src="https://oxygen-mini-game.nimrathk.repl.co" width="600px" height="460px"></iframe>
+    </center>
+
+</body>
+
+<footer>
+  https://www.nationalgeographic.org/activity/save-the-plankton-breathe-freely/#:~:text=The%20ocean%20produces%20oxygen%20through,organism%20can%20use%20for%20energy.
+  <br>
+  https://www.goldenarrow.com/eng/blog/cheetahs-journey-through-climate-change
+  https://www.britannica.com/science/diatom
+
+
+</footer>
+
+</html>
+
+<script>
+  function swapImage() {
+    var image = document.getElementById('clickableImage');
+
+    if (image.src.endsWith('plant.gif')) {
+      image.src = 'phytoplankton.jpeg';
+    } else {
+      image.src = 'plant.gif';
+    }
+  }
+
+  var shrinking = false;
+
+  function shrinkImage() {
+    var image = document.getElementById('clickableImage');
+
+    if (!shrinking) {
+      shrinking = true;
+      image.style.transition = 'transform 1s ease-in-out';
+      image.style.transform = 'scale(0)';
+    } else {
+      shrinking = false;
+      image.style.transition = 'none';
+      image.style.transform = 'scale(1)';
+    }
+  }
+
+  function toggleImage() {
+    var oceanImage = document.getElementById('ocean');
+
+    if (oceanImage.style.display === 'none') {
+      setTimeout(function () {
+        oceanImage.style.display = 'block';
+      }, 2000);
+    } else {
+      oceanImage.style.display = 'none';
+    }
+  }
+
+  function call2functions() {
+    shrinkImage();
+    toggleImage();
+  }
+</script>

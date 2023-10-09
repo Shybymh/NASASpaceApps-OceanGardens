@@ -1,98 +1,116 @@
-body{
+body {
     background-color: #f4f0e6;
-}
-
-.oceanp, .climatep{
-  font-size: 23px;
-  color:#315A87 ;
-  font-family:"Gill Sans", sans-serif
-}
-
-.box1 {
+  }
+  
+  
+  .mainpage img {
+    width: 600px;
+    height: 200px;
+    object-fit: cover;
+    margin: 20px;
+    padding: 30px;
+  
+  }
+  
+  #home-heading {
+    padding-top: 1px;
+    padding-bottom: 30px;
+    width: 100%;
+    height: 900px;
+    background: url("assets/OceanMainPic.jpg");
+    background-size: cover;
+  }
+  
+  
+  .oceanp {
+    font-size: 23px;
+    color: #315A87;
+    font-family: "Gill Sans", sans-seri
+  }
+  
+  .box1 {
     position: relative;
     margin: 2em 0;
     padding: 0.5em 1em;
     border: solid 3px #93BFCF;
-    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px); 
-    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px,#e9f4ff 3px, #e9f4ff 7px);
+    background: -webkit-repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px, #e9f4ff 3px, #e9f4ff 7px);
+    background: repeating-linear-gradient(-45deg, #f0f8ff, #f0f8ff 3px, #e9f4ff 3px, #e9f4ff 7px);
     width: 1000px;
-   justify-content: center; 
-   width: 900px;
-   margin:auto; 
-    
-}
-
-.box1 p {
-    margin: 0; 
+    justify-content: center;
+    width: 900px;
+    margin: auto;
+  
+  }
+  
+  .box1 p {
+    margin: 0;
     padding: 0;
-}
-
-.flex {
-  display: flex; 
-}
-.flex .text {
-  margin: 0 0 0 20px;
-  padding: 0;
-}
-
-.mainpage p, .climate p{
+  }
+  
+  .flex {
+    display: flex;
+  }
+  
+  .flex .text {
+    margin: 0 0 0 20px;
+    padding: 0;
+  }
+  
+  .mainpage p {
     text-align: left;
     font-size: 18px;
-}
-
-
-.mainpage nav a:hover{
-    border-bottom:3px solid #f9f9f9;
-}
-
-
-.mainpage nav {
-  width: 100%;
-  height: 70px;
-  background-color: #264669;
-  padding-top: 5px;
-  box-sizing: border-box;
-    overflow: hidden;
-
-}
-
-.mainpage ul {
-  display: flex;
-}
-
-.mainpage li{
-  list-style: none;
-   float: left;  
-}
-
-.mainpage a {
-  display: block;
-  text-decoration: none;
-  color: white;
-  margin-right: 35px;
-   font-size:16px;
+  }
+  
+  
+  .mainpage nav a:hover {
+    border-bottom: 3px solid #f9f9f9;
+  }
+  
+  
+  .mainpage nav {
+    width: 100%;
+    height: 70px;
+    background-color: #264669;
+    padding-top: 5px;
+    box-sizing: border-box;
+     overflow: hidden
+  }
+  
+  .mainpage ul {
+    display: flex;
+  }
+  
+  .mainpage li {
+    list-style: none;
+    float: left;
+  }
+  
+  .mainpage a {
+    display: block;
     text-decoration: none;
-    color:#f9f9f9;
+    color: white;
+    margin-right: 35px;
+    font-size: 16px;
+    text-decoration: none;
+    color: #f9f9f9;
     margin: 14px 16px 0px;
-    transition:0.6s;
-}
-
-
-.header{
-    width:100%;
+    transition: 0.6s;
+  }
+  
+  
+  .header {
+    width: 100%;
     padding: 6px 0px;
-    font-family:serif;
-}
-
-.animate-charcter
-{
-    background-image: linear-gradient(
-    90deg,
-    #B4CDE6 0%,
-    #BDCDD6 29%,
-    #93BFCF 67%,
-    #6096B4 100%);
-
+    font-family: serif;
+  }
+  
+  .animate-charcter {
+    background-image: linear-gradient(90deg,
+        #B4CDE6 0%,
+        #BDCDD6 29%,
+        #93BFCF 67%,
+        #6096B4 100%);
+  
     background-size: 100%;
     background-clip: border-box;
     background-size: 200%;
@@ -104,262 +122,365 @@ body{
     font-size: 70px;
     display: center;
     text-align: center;
-
-}
-
-@keyframes bloo {
-  to {
-
-    background-position: 200% center;
+  
   }
-}
-
-h2{
-  color: #305A88;
-  font-size: 34px;
-}
-
-/* -------------------------------------------------------------------------------------------------- */
-/* climate */
-
-
-.climatebody {
-  box-sizing: border-box;
-}
-h3,.climatep p {
-    color:  #305A88
-}
-
-.intro {
+  
+  @keyframes bloo {
+    to {
+  
+      background-position: 200% center;
+    }
+  }
+  
+  h2 {
+    color: #305A88;
+    font-size: 34px;
+  }
+  
+  /* climate */
+  
+  
+  .climatebody {
+    box-sizing: border-box;
+  }
+  
+  h3,
+  .climatep p {
+    color: #305A88
+  }
+  
+  .intro {
     display: grid;
     justify-items: center;
     align-items: center;
     text-align: justify;
-} 
-.climatep {
+  }
+  
+  .climatep {
     margin-left: 50px;
     margin-right: 50px;
     display: grid;
     justify-items: center;
     align-items: center;
     text-align: justify;
-}
-#factors {
+  }
+  
+  #factors {
     display: grid;
     align-items: center;
     justify-items: center;
-}
-.solarradiation, .evaporation, .currents {
-  border: 1px solid rgb(8, 8, 232);
-  width: 90%;
-  align-items: center;
-  margin: 10px;
-  padding: 10px;
+  }
   
-}
-
-
-.evaporation {
+  .solarradiation,
+  .evaporation,
+  .currents {
+    border: 1px solid rgb(8, 8, 232);
+    width: 90%;
+    align-items: center;
+    margin: 10px;
+    padding: 10px;
+  
+  }
+  
+  
+  .evaporation {
     float: left;
-}
-
-
-
-#solar {
+  }
+  
+  
+  
+  #solar {
     float: right;
     padding: 25px;
-}
-#evap {
+  }
+  
+  #evap {
     float: left;
     padding: 25px;
-}
-#current {
+  }
+  
+  #current {
     float: right;
     padding: 25px;
-}
-
-.ptitle {
+  }
+  
+  .ptitle {
     display: grid;
     justify-items: center;
     align-items: center;
     text-align: center;
-    
-}
-
-.factorsitem {
-  padding: 20px;
-  display: flex;
-  flex-direction: row;
   
-}
-
-
-
-.factorsitem  p  {
-    color:  #305A88
-}
-
-
-footer{
-    border-top: 5px solid #264669 ;
+  }
+  
+  .factorsitem {
+    padding: 20px;
+    display: flex;
+    flex-direction: row;
+  
+  }
+  
+  
+  
+  .factorsitem p {
+    color: #305A88
+  }
+  
+  
+  footer {
+    border-top: 5px solid #264669;
     background-color: #264669;
     margin: 25px -1cm -1cm -1cm;
     display: grid;
     align-items: center;
     justify-items: center;
     color: white;
-}
-
-#climateheader {
-   margin-top: -1cm;
-   margin-left: -1cm;
-   margin-right: -1cm;
-   height: 100px;
-   padding: 20px;
-}
-/* ------------------------Climate Game-------------------------------------- */
-
-
-#playquiz {
-  display: grid;
-  justify-items: center;
-  align-items: center;
-  font-family: 'Gill Sans',  sans-serif;
-}
-
-#gamespace {
-    box-sizing: border-box;
-    background-color: #93BFCF;
-    height: 500px;
-    width: 50vw;
-    margin: 20px auto;
+  }
+  
+  #climateheader {
+    margin-top: -1cm;
+    margin-left: -1cm;
+    margin-right: -1cm;
+    height: 100px;
     padding: 20px;
-    padding-bottom: 25px;
+  }
+  /* ---Climate Game-------- */
+  
+  
+  #playquiz {
     display: grid;
+    justify-items: center;
     align-items: center;
     font-family: 'Gill Sans',  sans-serif;
-   
-    
-}
-#options {
-  font-size: 20px;
-  display: none;
-
-}
-#options > div {
-  padding-bottom: 10px;
-}
-
-#startbutton, #restartbutton, #nextque, #submitanswer {
-  border: 2px solid #93BFCF;
-  border-radius: 2px;
-  height: 40px;
-  color: #305A88 ;
-  justify-self : center;
-  align-self: center;
-  font-size: 20px;
-  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-  padding-left: 25px;
-  padding-right: 25px;
+  }
   
-}
-#restartbutton {
-  display: none;
-}
-.centerbuttons {
-  display: grid;
-  align-items: center;
-  justify-items: center;
-}
-
-#correct {
-    border: #6096B4;
-    background-color: rgb(147, 248, 147);
-    padding: 5px;
+  #gamespace {
+      box-sizing: border-box;
+      background-color: #93BFCF;
+      height: 500px;
+      width: 50vw;
+      margin: 20px auto;
+      padding: 20px;
+      padding-bottom: 25px;
+      display: grid;
+      align-items: center;
+      font-family: 'Gill Sans',  sans-serif;
+     
+      
+  }
+  #options {
+    font-size: 20px;
     display: none;
-    justify-items: center;
-    align-items: center;
-    align-content: center;
-    text-align: center;
-
-}
-
-#wrong {
-    border: #6096B4;
-    background-color:rgb(241, 111, 111);
-    padding: 5px;
+  
+  }
+  #options > div {
+    padding-bottom: 10px;
+  }
+  
+  #startbutton, #restartbutton, #nextque, #submitanswer {
+    border: 2px solid #93BFCF;
+    border-radius: 2px;
+    height: 40px;
+    color: #305A88 ;
+    justify-self : center;
+    align-self: center;
+    font-size: 20px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    padding-left: 25px;
+    padding-right: 25px;
+    
+  }
+  #restartbutton {
     display: none;
-    justify-items: center;
+  }
+  .centerbuttons {
+    display: grid;
     align-items: center;
+    justify-items: center;
+  }
+  
+  #correct {
+      border: #6096B4;
+      background-color: rgb(147, 248, 147);
+      padding: 5px;
+      display: none;
+      justify-items: center;
+      align-items: center;
+      align-content: center;
+      text-align: center;
+  
+  }
+  
+  #wrong {
+      border: #6096B4;
+      background-color:rgb(241, 111, 111);
+      padding: 5px;
+      display: none;
+      justify-items: center;
+      align-items: center;
+      text-align: center;
+  }
+  
+  #question {
+      color: #305A88;
+      display: none;
+  }
+  
+  
+  #submitanswer{
+    display: none;
+  }
+  #nextque {
+    display: none;
+  }
+  
+  
+  /*oxygen*/
+  
+  #clickableImage {
+    display: block;
+    margin: 0 auto;
     text-align: center;
-}
-
-#question {
+    border: 10px solid #6E260E;
+  }
+  
+  #magnify {
+    text-align: right
+  }
+  
+  #magnify img {
+    margin-left: auto;
+    margin-right: 5%;
+  }
+  
+  
+  #general {
+    font-family: "Gill Sans", sans-seri;
+    font-size: 25px;
+    color: #315A87;
+  }
+  
+  .ocean {
+    position: relative;
+  }
+  
+  .arrows img {
+    height: 20%;
+    width: auto;
+  }
+  
+  #rcorners2 {
+    left: 5%;
+    border-radius: 25px;
+    border: 10px dotted #B2BEB5;
+    padding: 20px;
+    width: 25%px;
+    height: 150px;
+  }
+  
+  #twotypes img.pbottom:hover {
+    opacity: 0;
+  }
+  
+  #twotypes img {
+    position: absolute;
+    -webkit-transition: opacity 1s ease-in-out;
+    -moz-transition: opacity 1s ease-in-out;
+    -o-transition: opacity 1s ease-in-out;
+    transition: opacity 1s ease-in-out;
+  }
+  
+  
+  
+  
+  #twotypes {
+    height: 10%px;
+    width: auto;
+    margin: 0 auto;
+    align-content: right;
+  }
+  
+  .container {
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    column-gap: 5px;
+  }
+  
+  
+  
+  .text {
+    font-size: 40px;
+  }
+  
+  .container {
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .container img {
+    max-width: 30%;
+    max-height: 15%;
+    float: left;
+  }
+  
+  .text {
+    font-size: 20px;
+    padding-left: 20px;
+    padding-top: 20%;
+    float: right;
+  }
+  
+  
+  h4 {
+    color: #004d65;
+  }
+  
+  
+  /*food*/
+  
+  
+  
+  
+  .header {
+    width: 100%;
+    padding: 6px 0px;
+    font-family: serif;
+  }
+  
+  .fishmain-visual {
+    width: 100%;
+    height: 600px;
+    background-image: url(fish.jpeg);
+    background-repeat: no-repeat;
+  }
+  
+  .fishp {
+    font-size: 23px;
+    color: #315A87;
+    font-family: "Gill Sans", sans-seri;
+    text-align: center;
+  }
+  
+  h2 {
     color: #305A88;
-    display: none;
-}
-
-
-#submitanswer{
-  display: none;
-}
-#nextque {
-  display: none;
-}
-
-
-
-
-
-/* -------------------------------------------------------------------------------------------------------- */
-
-/* Food */
-
-/*food*/
-
-
-
-
-.header {
-  width: 100%;
-  padding: 6px 0px;
-  font-family: serif;
-}
-
-.fishmain-visual {
-  width: 100%;
-  height: 600px;
-  background-image: url(fish.jpeg);
-  background-repeat: no-repeat;
-}
-
-.fishp {
-  font-size: 23px;
-  color: #315A87;
-  font-family: "Gill Sans", sans-seri;
-  text-align: center;
-}
-
-h2 {
-  color: #305A88;
-  font-size: 34px;
-  font-family: "Gill Sans", sans-seri;
-  text-align: center;
-}
-
-.simulation {
-
-  text-align: center;
-}
-
-.title {
-  text-align: center;
-  color: #315A87;
-}
-
-iframe {
-  margin-top: 4em;
-  margin-left: 25em;
-  margin-bottom: 5em;
-  border: none;
-}
+    font-size: 34px;
+    font-family: "Gill Sans", sans-seri;
+    text-align: center;
+  }
+  
+  .simulation {
+  
+    text-align: center;
+  }
+  
+  .title {
+    text-align: center;
+    color: #315A87;
+  }
+  
+  iframe {
+    margin-top: 4em;
+    margin-left: 3em;
+    margin-bottom: 5em;
+    border: none;
+  }
